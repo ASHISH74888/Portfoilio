@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body style="overflow-x: hidden">
+    <!-- navbar -->
+    <nav class="navbar">
+      <h1 class="logo">Portfolio</h1>
+      <ul class="nav-links-containers">
+        <li class="nav-link"><a href="#" class="links active">Home</a></li>
+        <li class="nav-link">
+          <a href="#about-section" class="links">about</a>
+        </li>
+        <li class="nav-link">
+          <a href="#skills" class="links">Skills</a>
+        </li>
+        <li class="nav-link">
+          <a href="#project-section" class="links">projects</a>
+        </li>
+        <li class="nav-link">
+          <a href="#contact" class="links">contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- header -->
+    <header class="header" id="home-section">
+      <div class="content">
+        <h1 class="header-heading">
+          Hey , My Name is
+          <span class="brand-name"
+            ><span class="text first-text">Ashish</span></span
+          >
+          <br>I am a
+          <span class="brand-name"><span>Web Developer</span></span>
+        </h1>
+        <!-- <a href="#" class="btn">Hire</a> -->
+        <a href="#about-section" class="btn">Hire</a>
+      </div>
+
+      <div class="header-img-container">
+        <div class="circle"></div>
+        <img src="img/my2.1-removebg-preview.png" alt="" class="header-img" />
+      </div>
+    </header>
+
+    <!-- about section -->
+    <section id="about-section">
+      <h1 class="heading">about me</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <div class="square"></div>
+          <img src="img/my-pic enhanced.jpg" alt="" class="about-img" />
+          <div class="social-links">
+            <a href="https://github.com/ASHISH74888" target="_blank"
+              ><img src="img/github.png" alt="" class="social-img"
+            /></a>
+            <a href="https://www.instagram.com/_ashish_singh017/" target="_blank"
+              ><img src="img/insta.png" alt="" class="social-img"
+            /></a>
+            <a href="#"><img src="img/fb.png" alt="" class="social-img" /></a>
+            <a href="#"
+              ><img src="img/twitter.png" alt="" class="social-img"
+            /></a>
+            <a href="https://www.linkedin.com/in/ashish-kumar-singh-668a12251/" target="_blank"
+              ><img src="img/linked.png" alt="" class="social-img"
+            /></a>
+          </div>
+        </div>
+
+        <!-- info part-->
+        <div class="info">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            accusantium perferendis eveniet laudantium, commodi reprehenderit
+            possimus aperiam ex rerum quae consectetur voluptatibus delectus
+            placeat iusto praesentium doloribus nihil ducimus, ipsum totam fuga,
+            vel similique ut consequatur dicta. Ut quos in, voluptate ullam
+            dolorum aliquid repellat! Fugit perspiciatis dolore soluta natus
+            repellat quod illo id ex vero commodi eveniet provident reiciendis
+            ducimus cum voluptate quae sapiente eum, quisquam laudantium,
+            quaerat officiis? Omnis, aperiam eius cumque ipsam fugit culpa
+            adipisci, delectus nemo voluptas, voluptates dolorum? Labore, quam?
+            Asperiores doloribus dolorum cupiditate maiores molestiae? Eum, unde
+            cupiditate asperiores quis saepe mollitia ipsam aliquid.
+          </p>
+          <a href="#contact" class="btn">hire me</a>
+          <input type="button" class="btn" value="download CV" onclick="DownloadFile('Final Resume.pdf')"></input>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <!-- skills parts -->
+      <h2 class="sub-heading">skills</h2>
+      <div class="skills">
+        <p class="skill-name">HTML</p>
+        <p class="skill-name">CSS</p>
+        <p class="skill-name">JavaScript</p>
+        <p class="skill-name">React.js</p>
+        <p class="skill-name">Node.js</p>
+        <p class="skill-name">Express.js</p>
+        <p class="skill-name">Mongo-DB</p>
+        <p class="skill-name">Git</p>
+        <p class="skill-name">Github</p>
+        <p class="skill-name">C/C++</p>
+        <p class="skill-name">Java Programming</p>
+        <!-- <p class="skill-name">Data Structure & Algorithm</p> -->
+        <!-- <p class="skill-name">More</p> -->
+      </div>
+
+      <!-- timeline section -->
+      <h2 class="sun-heading">Education and Experiences</h2>
+      <div class="timeline-container">
+        <div class="card-container">
+          <div class="card">
+            <h1 class="card-title">2010 - 2012</h1>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+              et enim corrupti est suscipit neque quisquam placeat obcaecati
+              nesciunt qui?
+            </p>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <h1 class="card-title">2012 - 2014</h1>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+              et enim corrupti est suscipit neque quisquam placeat obcaecati
+              nesciunt qui?
+            </p>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <h1 class="card-title">2014 - 2016</h1>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+              et enim corrupti est suscipit neque quisquam placeat obcaecati
+              nesciunt qui?
+            </p>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <h1 class="card-title">2016 - 2018</h1>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+              et enim corrupti est suscipit neque quisquam placeat obcaecati
+              nesciunt qui?
+            </p>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <h1 class="card-title">2018 - 2020</h1>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+              et enim corrupti est suscipit neque quisquam placeat obcaecati
+              nesciunt qui?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project section old -->
+    <section id="project-section">
+      <h1 class="heading project">Projects</h1>
+      <div class="filter">
+        <button class="btn filter-btn" data-filter="all">all</button>
+        <button class="btn filter-btn" data-filter=".css">css</button>
+        <button class="btn filter-btn" data-filter=".Js">JavaScript</button>
+        <button class="btn filter-btn" data-filter=".fs">fullstack</button>
+      </div>
+
+      <!-- projects cards -->
+      <!-- <div class="project-container">  -->
+      <!-- <div class="project-card "> 
+          <div class="project-wrapper">
+            <div class="project-thumbnail">
+              <img src="img/close.png" alt="" class="close-btn">
+              <img src="img/project-1.png" alt="" class="project-img">
+              <span class="tags">#javascript, #css, #fullstack </span> 
+            </div>
+            <div class="project-body">
+                <h1 class="project-name">Project-1</h1>
+                <p class="project-detail">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda, eaque.</p>
+                  <a href="#" class="btn">Githun</a>
+                  <a href="#" class="btn">See live</a>
+            </div>
+          </div> -->
+      <!-- </div> -->
+      <!-- <div class="project-card active"> 
+            <div class="project-wrapper">
+              <div class="project-thumbnail">
+                <img src="img/close.png" alt="" class="close-btn" />
+                <img src="img/project-2.png" alt="" class="project-img" />
+                <span class="tags">#javascript, #css, #fullstack </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card active">
+          <div class="project-wrapper">
+            <div class="project-thumbnail">
+              <img src="img/close.png" alt="" class="close-btn" />
+              <img src="img/project-3.png" alt="" class="project-img" />
+              <span class="tags">#javascript, #css, #fullstack </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card active">
+          <div class="project-wrapper">
+            <div class="project-thumbnail">
+              <img src="img/close.png" alt="" class="close-btn" />
+              <img src="img/project-4.png" alt="" class="project-img" />
+              <span class="tags">#javascript, #css, #fullstack </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="f1">
+        <div>
+          <h1 class="p1">project-1</h1>
+          <p class="p1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
+            minima voluptatem ab enim eveniet beatae vel ducimus, libero in
+            totam!
+          </p>
+        </div>
+
+        <div>
+          <h1 class="p1">project-2</h1>
+          <p class="p1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
+            minima voluptatem ab enim eveniet beatae vel ducimus, libero in
+            totam!
+          </p>
+        </div>
+
+        <div>
+          <h1 class="p3">project-3</h1>
+          <p class="p3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
+            minima voluptatem ab enim eveniet beatae vel ducimus, libero in
+            totam!
+          </p>
+        </div>
+
+        <div>
+          <h1 class="p4">project-4</h1>
+          <p class="p4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
+            minima voluptatem ab enim eveniet beatae vel ducimus, libero in
+            totam!
+          </p>
+        </div> -->
+      <!-- </footer> -->
+
+      <div class="portfolio-gallery">
+        <div class="port-box mix css">
+          <div class="port-image">
+            <img src="img/project-1.png" class="i1" />
+          </div>
+          <div class="port-content">
+            <h3>Front-End</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              distinctio laboriosam sunt molestiae. Excepturi inventore eveniet,
+              laudantium iusto eum quibusdam?
+            </p>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+          </div>
+        </div>
+
+        <div class="port-box mix css">
+          <div class="port-image">
+            <img src="img/project-2.png" class="i1" />
+          </div>
+          <div class="port-content">
+            <h3>Front-End</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              distinctio laboriosam sunt molestiae. Excepturi inventore eveniet,
+              laudantium iusto eum quibusdam?
+            </p>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+          </div>
+        </div>
+
+        <div class="port-box mix Js">
+          <div class="port-image">
+            <img src="img/project-3.png" class="i1" />
+          </div>
+          <div class="port-content">
+            <h3>Front-End</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              distinctio laboriosam sunt molestiae. Excepturi inventore eveniet,
+              laudantium iusto eum quibusdam?
+            </p>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+          </div>
+        </div>
+
+        <div class="port-box mix Js">
+          <div class="port-image">
+            <img src="img/project-4.png" class="i1" />
+          </div>
+          <div class="port-content">
+            <h3>Front-End</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              distinctio laboriosam sunt molestiae. Excepturi inventore eveniet,
+              laudantium iusto eum quibusdam?
+            </p>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+          </div>
+        </div>
+
+        <div class="port-box mix Js">
+          <div class="port-image">
+            <img src="img/project-5.png" class="i1" />
+          </div>
+          <div class="port-content">
+            <h3>Front-End</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              distinctio laboriosam sunt molestiae. Excepturi inventore eveniet,
+              laudantium iusto eum quibusdam?
+            </p>
+            <a href="#skills"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+          </div>
+        </div>
+
+        <div class="port-box mix fs">
+          <div class="port-image">
+            <img src="img/project-6.png" class="i1" />
+          </div>
+          <div class="port-content">
+            <h3>Front-End</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+              distinctio laboriosam sunt molestiae. Excepturi inventore eveniet,
+              laudantium iusto eum quibusdam?
+            </p>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+     <!-- <section id="contact-section con">
+      <h1 class="heading">contact</h1> 
+      <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Surkhet, NP12</div>
+              <div class="text-two">Birendranagar 06</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+0098 9893 5647</div>
+              <div class="text-two">+0096 3434 5678</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">codinglab@gmail.com</div>
+              <div class="text-two">info.codinglab@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+              
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" >
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>  
+    </section> -->
+
+    <!-- 2nd form -->
+    <section class="ftco-section" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mb-5">
+            <h1 class="heading-section">Contact  </h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-md-12">
+            <div class="wrapper">
+              <div class="row justify-content-center">
+                <div class="col-lg-8 mb-5">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="dbox w-100 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-map-marker"></span>
+                        </div>
+                        <div class="text">
+                          <p><span>Address:</span> Kaushalaya Complex Kanke Block Chowk , Ranchi, Jharkhand 834006</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="dbox w-100 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="text">
+                          <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="dbox w-100 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                          <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <div class="text">
+                          <p><span>Email:</span> <a href="mailto:info@yoursite.com">coolashishsingh74888@gmil.com</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="contact-wrap">
+                    <h3 class="mb-4 text-center">Get in touch with us</h3>
+                    <div id="form-message-warning" class="mb-4 w-100 text-center"></div> 
+                    <div id="form-message-success" class="mb-4 w-100 text-center">
+                      <!-- Your message was sent, thank you! -->
+                    </div>
+                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                          </div>
+                        </div>
+                        <div class="col-md-12"> 
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Message"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="submit" value="Send Message" class="btn btn-primary">
+                            <div class="submitting"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="mixitup.min.js"></script>
+    <script src="project.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
